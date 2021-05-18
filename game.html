@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="https://img.icons8.com/metro/26/000000/black-cat.png"/>
+
+    <title>Quiz | The Ultimate Cat Quiz</title>
+  </head>
+  <body>
+
+    <div class="container vh-100">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="col-12">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="row flex-column justify-content-center align-items-center text-center mb-3">
+                            <div class="col-6 h5 progress-text"></div>
+                            <div class="col-6">
+                                <div class="progressbar mx-auto">
+                                    <div class="progressbar-inside"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row flex-column justify-content-center align-items-center text-center mt-md-0 mt-3 mb-3">
+                            <div class="col-6 h5 score-text">Score</div>
+                            <div class="col-6 h2 score">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center text-center mt-5 px-3">
+                    <div id="result"></div>
+                    <div class="col-12 mb-3 question">Question</div>
+                    <div class="col-12 answer-custom"><span class="choice-prefix me-5">A.</span> <span data-number="1" class="choice-text">answer</span></div>
+                    <div class="col-12 answer-custom"><span class="choice-prefix me-5">B.</span> <span data-number="2" class="choice-text">answer</span></div>
+                    <div class="col-12 answer-custom"><span class="choice-prefix me-5">C.</span> <span data-number="3" class="choice-text">answer</span></div>
+                    <div class="col-12 answer-custom"><span class="choice-prefix me-5">D.</span> <span data-number="4" class="choice-text">answer</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7aab9dc3ab.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
