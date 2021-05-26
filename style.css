@@ -131,6 +131,7 @@ a:hover{
     background-color: var(--second-color);
     position: relative;
     top: -50px;
+    min-height: 136px;
 }
 
 .cat2{
